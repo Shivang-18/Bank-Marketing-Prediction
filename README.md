@@ -1,1 +1,4 @@
 # Bank-Marketing-Prediction
+
+The primary challenge addressed in this study revolves around the direct marketing campaigns conducted by a Portuguese bank. These campaigns predominantly utilize phone calls as a medium to promote term deposits among clients. The core objective is to develop a predictive model that reliably forecasts whether a client will subscribe to a term deposit, constituting a binary classification problem.
+The dataset crucial to this study encapsulates data from these marketing campaigns, including comprehensive records of 45,211 instances, each detailed across 16 attributes. These attributes provide a multi-faceted view of each client’s demographic and financial status, as well as their interaction history with the bank’s marketing efforts. The outcome of the predictive model is expected to enhance the efficiency and effectiveness of future marketing campaigns by allowing for more targeted and personalized client approaches.
