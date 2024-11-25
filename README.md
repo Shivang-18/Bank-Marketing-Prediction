@@ -3,9 +3,9 @@
 The primary challenge addressed in this study revolves around the direct marketing campaigns conducted by a Portuguese bank. These campaigns predominantly utilize phone calls as a medium to promote term deposits among clients. The core objective is to develop a predictive model that reliably forecasts whether a client will subscribe to a term deposit, constituting a binary classification problem.
 The dataset crucial to this study encapsulates data from these marketing campaigns, including comprehensive records of 45,211 instances, each detailed across 16 attributes. These attributes provide a multi-faceted view of each client’s demographic and financial status, as well as their interaction history with the bank’s marketing efforts. The outcome of the predictive model is expected to enhance the efficiency and effectiveness of future marketing campaigns by allowing for more targeted and personalized client approaches.
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 
-#### 1. Correlation Heatmap for Continuous Variables
+### 1. Correlation Heatmap for Continuous Variables
    
 •	Objective:
 
@@ -18,7 +18,7 @@ The correlation heatmap was generated to identify relationships among continuous
 The heatmap reveals that the correlations between most of the continuous variables are quite low, with values ranging from -0.11 to 0.14. This indicates that the features exhibit weak linear relationships with one another. The absence of strong correlations among the majority of variables implies that each feature captures distinct information and can independently contribute to the predictive model.
 
 
-#### 2. Age Distribution by Subscription Status (Histogram)
+### 2. Age Distribution by Subscription Status (Histogram)
    
 •	Objective:
 
@@ -34,7 +34,7 @@ The histogram shows that most customers fall within the 25-40 age group, with a 
 
 The observed imbalance between "yes" and "no" responses will influence the model development process. Specifically, oversampling techniques like SMOTE (Synthetic Minority Oversampling Technique) may be applied to address the class imbalance and ensure that the model does not become biased toward predicting non-subscription.
 
-#### 3. Contact Duration by Job Type
+### 3. Contact Duration by Job Type
 
 The boxplot illustrates the distribution of call duration (in seconds) segmented by different job types, providing insight into the relationship between the client’s profession and subscription status. Several key observations emerge from this plot:
 
